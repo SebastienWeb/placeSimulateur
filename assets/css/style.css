@@ -242,7 +242,7 @@ table {
   }
 }
 .containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert p {
-  padding: 1.875rem 0 !important;
+  padding: 1.875rem !important;
   line-height: 2rem !important;
   font-family: "Roboto", sans-serif !important;
 }
@@ -252,15 +252,15 @@ table {
   }
 }
 .containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .blockSimulateurExpert {
-  margin: 0 auto;
-  width: 18.5rem;
+  margin: 0 auto !important;
+  width: 18.5rem !important;
 }
 @media screen and (min-width: 1200px) {
   .containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .blockSimulateurExpert {
-    display: flex;
-    justify-content: end;
+    display: flex !important;
+    justify-content: end !important;
     margin: 0 !important;
-    width: 22rem;
+    width: 22rem !important;
   }
 }
 .containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .blockSimulateurExpert .btnSimulateurExpert {
