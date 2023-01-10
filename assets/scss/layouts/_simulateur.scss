@@ -95,13 +95,13 @@
         }
       }
       .blockSimulateurExpert {
-        margin: 0 auto;
-        width: 18.5rem;
+        margin: 0 auto !important;
+        width: 18.5rem !important;
         @include desktop {
-          display: flex;
-          justify-content: end;
+          display: flex !important;
+          justify-content: end !important;
           margin: 0 !important;
-          width: 22rem;
+          width: 22rem !important;
         }
         .btnSimulateurExpert {
           border: none !important;
