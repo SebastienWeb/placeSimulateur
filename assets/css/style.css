@@ -151,6 +151,11 @@ table {
   text-align: center !important;
   position: relative !important;
 }
+@media screen and (min-width: 1024px) {
+  .containerSimulateurExpert .contentSimulateurExpert {
+    width: 100% !important;
+  }
+}
 @media screen and (min-width: 1200px) {
   .containerSimulateurExpert .contentSimulateurExpert {
     text-align: left !important;
@@ -161,6 +166,13 @@ table {
   height: 18.875rem !important;
   left: -6.875rem !important;
   top: 4.938rem !important;
+}
+@media screen and (min-width: 768px) {
+  .containerSimulateurExpert .contentSimulateurExpert .maisonSimulateurExpert {
+    height: 26.875rem !important;
+    left: -9.875rem !important;
+    top: -2.062rem !important;
+  }
 }
 @media screen and (min-width: 1200px) {
   .containerSimulateurExpert .contentSimulateurExpert .maisonSimulateurExpert {
@@ -207,7 +219,7 @@ table {
 }
 @media screen and (min-width: 1200px) {
   .containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert h1 {
-    padding-left: 2.25rem !important;
+    padding: 0 2.25rem !important;
   }
 }
 .containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .hrSimulateurExpert {
@@ -239,7 +251,19 @@ table {
     width: 33.125rem !important;
   }
 }
-.containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .btnSimulateurExpert {
+.containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .blockSimulateurExpert {
+  margin: 0 auto;
+  width: 18.5rem;
+}
+@media screen and (min-width: 1200px) {
+  .containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .blockSimulateurExpert {
+    display: flex;
+    justify-content: end;
+    margin: 0 !important;
+    width: 22rem;
+  }
+}
+.containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .blockSimulateurExpert .btnSimulateurExpert {
   border: none !important;
   background-color: #f2ae00 !important;
   color: white !important;
@@ -251,7 +275,7 @@ table {
   font-weight: 600 !important;
   cursor: pointer;
 }
-.containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .btnSimulateurExpert:hover {
+.containerSimulateurExpert .contentSimulateurExpert .containerContentSimulateurExpert .blockSimulateurExpert .btnSimulateurExpert:hover {
   width: 20rem !important;
   height: 4.375rem !important;
 }
